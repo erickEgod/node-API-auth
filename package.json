@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/server.ts",
+    "prestart": "npx prisma migrate deploy",
     "start": "node dist/server.js",
     "build": "rimraf ./dist && tsc",
-    "migrate": "npx prisma migrate deploy",
     "postinstall": "npm run build "
   },
   "author": "erickEgod",
