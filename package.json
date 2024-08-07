@@ -2,7 +2,7 @@
   "name": "server-nodejs-postresql",
   "version": "1.0.0",
   "description": "es el proyecto 7 del curso de nodejs pero esta vez haciéndolo yo para entenderlo",
-  "main": "dist/server.js",
+  "main": "server.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/server.ts",
     "start": "node dist/server.js",
