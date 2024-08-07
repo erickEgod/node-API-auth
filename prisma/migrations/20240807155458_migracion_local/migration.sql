@@ -1,4 +1,3 @@
-
 -- CreateTable
 CREATE TABLE "usuarios" (
     "id" SERIAL NOT NULL,
