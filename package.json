@@ -7,8 +7,8 @@
     "dev": "tsnd --respawn --clear src/server.ts",
     "start": "node dist/server.js",
     "build": "rimraf ./dist && tsc",
-    "postinstall": "npm run build && npm run migrate",
-    "migrate": "npx prisma migrate deploy"
+    "migrate": "npx prisma migrate deploy",
+    "postinstall": "npm run build "
   },
   "author": "erickEgod",
   "license": "ISC",
