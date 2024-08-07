@@ -1,11 +1,11 @@
-# APIRESTful con sistema de autenticación construida con nodeJS y express
+#APIRESTful con sistema de autenticación construida con nodeJS y express
 
 Desarrollado en typescript
 Usa prisma para la conexión con una base de datos PostgreSQL
 Usa docker para hacer un contenedor de la aplicación
 
 
-## Funcionamiento
+##Funcionamiento
 
 Se proporciona una API RESTful que registra o logea a un usuario.
 Desde frontend como postman se puede verificar el funcionamiento.
